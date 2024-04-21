@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0,0.7);
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stopwatch{
+    background-color: rgba(0,0 ,0 ,0.9 );
+    padding: 20px 24px;
+    border-radius: 10px;
+
+}
+
+.timer{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.buttons{
+    margin-top: 20px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.buttons .stop{
+    font-size: 20px;
+    background:none;
+    border: none;
+    background-color: red;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-inline: 12px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.buttons .start{
+    font-size: 20px;
+    background:none;
+    border: none;
+    background-color: green;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-inline: 12px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.buttons .reset{
+    font-size: 20px;
+    background:none;
+    border: none;
+    background-color: blue;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-inline: 12px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.reset:hover{
+     /* background-color:blue; */
+     color: #fff;
+     
+}
+.stop:hover{
+  color: #fff;
+}
+.start:hover{
+  color: #fff;
+}
